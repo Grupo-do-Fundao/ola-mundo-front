@@ -1,4 +1,4 @@
-img{
+.logo{
     width: 173px;
 }
 
@@ -9,7 +9,7 @@ a{
     border-radius: 0% !important;
 }
 
-button{
+.button-wpp{
     background-color: #15A54F !important;
     border-radius: 100%;
 }

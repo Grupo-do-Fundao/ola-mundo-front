@@ -13,41 +13,41 @@ function Header() {
     <nav className="bg-transparent p-5">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
-          <img src={ logo } />
+          <img className="logo" src={ logo } />
           <div className="flex items-center">
             <div className="hidden md:block">
               <div className="ml-10 flex space-x-4">
                 <Link
                   to="/main"
-                  className="decoration-dotted hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium "
+                  className="decoration-dotted text-white px-3 py-2 rounded-md text-sm font-medium "
                 >
                   SOBRE
                 </Link>
 
                 <Link
                   to="/cat"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                  SERVIÇOS
                 </Link>
 
                 <Link
                   to="/dog"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   ORÇAMENTO
                 </Link>
 
                 <Link
                   to="/clientes"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   CONTATO
                 </Link>
 
                 <Link
                   to="/clientes"
-                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >
                   OPORTUNIDADES
                 </Link>
@@ -125,34 +125,34 @@ function Header() {
             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <Link
                 to="/main"
-                className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 SOBRE
               </Link>
               <Link
                 to="/cat"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                SERVIÇOS
               </Link>
 
               <Link
                 to="/dog"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 ORÇAMENTO
               </Link>
 
               <Link
                 to="/clientes"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 CONTATO
               </Link>
 
               <Link
                 to="/clientes"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                className="text-gray-300 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
               >
                 OPORTUNIDADES
               </Link>

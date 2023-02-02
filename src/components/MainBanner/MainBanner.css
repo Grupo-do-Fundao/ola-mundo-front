@@ -1,0 +1,53 @@
+.cosmonaut {
+    width: 33vw;
+    padding-left: 10% ;
+}
+.banner-details {
+    width: 33vw;
+    padding-right: 10%;
+}
+.main-banner{
+    margin: 0;
+    width: 100% !important;
+    overflow: hidden;
+}
+.main-text{
+    padding: 10% 5vw 10% 5vw;
+    line-height: 1em;
+    font-weight: 100;
+    width: 33vw;
+    color: white;
+    font-size: 35px;
+}
+
+h1{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+}
+h2{
+    color: white;
+    font-weight: 300;
+    font-size: 25px;
+}
+.border-round{
+    border-radius: 20%;
+    border: 1px solid white;
+    padding: 1em;
+}
+
+.span-details{
+    color:#ACE900;
+}
+
+strong{
+    font-weight: 900;
+}
+
+.call-action{
+    background-color: #F5D607 !important;
+    width: 50%;
+    border-radius: 40px;
+    font-weight: 900;
+    font-size: 12px;
+}
